@@ -1,0 +1,23 @@
+{
+    "name": "app",
+    "productName": "App",
+    "version": "0.0.0",
+    "description": "",
+    "license": "MIT",
+    "repository": "user/repo",
+    "author": {
+        "name": "",
+        "email": "",
+        "url": ""
+    },
+    "scripts": {
+        "html1": "live-server --open=./app/learn1_vue-js-basics --browser=chrome",
+        "html2": "live-server --open=./app/learn2_vue-js-interactions --browser=chrome",
+        "start": "electron dist/app",
+        "build": "electron-packager . --out=dist --asar --overwrite --all"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "live-server": "^1.2.0"
+    }
+}
